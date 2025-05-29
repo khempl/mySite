@@ -1,0 +1,128 @@
+*{
+    font-family: "Rubik Wet Paint", system-ui;
+    font-style: normal;
+}
+body{
+    background-image: url('fon.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+}
+header{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding-bottom: 30px;
+    font-size: 27px;
+    color: rgb(112, 0, 0);
+    border-top: 3px solid rgb(112, 0, 0);
+    border-bottom: 3px solid rgb(112, 0, 0);
+}
+main{
+    color: rgb(112, 0, 0);
+    border-top: 3px solid rgb(112, 0, 0);
+}
+footer{
+    text-align: center;
+    font-size: 25px;
+    color: rgb(112, 0, 0);
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-top: 3px solid rgb(112, 0, 0);
+    border-bottom: 3px solid rgb(112, 0, 0);
+    padding: 20px;
+}
+hr{
+    border-color: rgb(112, 0, 0);
+}
+.center{
+    text-align: center;
+}
+a{
+    color: rgb(112, 0, 0);
+}
+a:hover{
+    color: white;
+    text-decoration: underline;
+}
+h2{ 
+    text-align: center; 
+    margin-bottom: auto; 
+}
+.price{
+    text-align: center;
+    color: rgb(112, 1, 1);
+}
+section{
+    display: flex;
+    flex-wrap: wrap;
+    border: 0px solid black;
+    width: auto;
+    height: auto;
+    font-size: 20px;
+}
+article{
+   background-image: radial-gradient(circle, 
+   rgb(194, 194, 194), 
+   rgb(65, 58, 58), 
+   rgb(0, 0, 0));
+    color: black;
+    width: 270px;
+    margin: auto;
+    margin-bottom: 20px ;
+    height: auto;
+    border: 0px solid black;
+    border-radius: 20px;
+    box-shadow: 4px 4px 6px black;
+    font-size: 19px;
+    display: inline-block;
+}
+article:hover{
+    background-image: radial-gradient(circle, 
+   rgb(219, 219, 219), 
+   rgb(87, 80, 80), 
+   rgb(29, 29, 29));
+}
+button{
+    display: flex; 
+    border: 0px;
+    border-radius: 12px;
+    color: white;
+    height: 40px;
+    font-size: 16px;
+    padding: 10px;
+    margin: auto;
+    text-align: justify;
+    background-color: black;
+}
+button:hover{
+    background-color: rgb(146, 12, 12);
+}
+.search{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: fit-content; 
+}
+.searchi{   
+    width: 500px; 
+    border: 2px solid rgb(112, 0, 0); 
+    border-radius: 5px; 
+    background-color: rgb(49, 49, 49); 
+    color: white;
+    font-size: 16px;
+}
+.searchb{
+    padding: 10px 20px; 
+    background-color: rgb(112, 0, 0); 
+    color: white; 
+    border-radius: 5px;
+    font-size: 16px;
+    margin-left: 10px; 
+}
+.searchb:hover{
+    background-color: rgb(146, 12, 12);
+}
+.razd{
+    font-size: 40px;
+}

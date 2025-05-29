@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Rubik+Doodle+Shadow&family=Rubik+Wet+Paint&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/lab5.5.1.css">
+</head>
+
+<body>
+    <header>
+        <img class="header__logo" src="img/lo.png" alt="logo" height="130px">
+        <nav class="header__navigation">
+            <a href="index.html">ГЛАВНАЯ</a>
+            <a href="lab5.5.html">КАТАЛОГ</a>
+            <a href="">О НАС</a>
+            <a href="lab5.5.1.html">КОНТАКТЫ</a>
+            <a href="">КОРЗИНА</a> 
+        </nav>
+        <hr>
+    </header>
+
+    <main>
+        <div class="forma">
+            <form action="#">
+                <h1>Форма обратной связи</h1>
+                <p>Если у вас возникли какие-либо вопросы, напишите нам:</p>
+                <div class="forma__pole">
+                    <input type="text" name="name" placeholder="ФИО" required>
+                    <input type="email" name="mail" id="mail" placeholder="Email" required>
+                </div>
+                <div class="forma__themes">
+                    <p>Выберите тему вопроса из предложенных: </p>
+                    <select name="themes" id="theme" class="forma__themes--select">
+                        <option value="">Доставка задерживается</option>
+                        <option value="">Не проходит оплата</option>
+                        <option value="">Товара нет в наличии</option>
+                        <option value="">Пришёл не тот товар</option>
+                        <option value="">Отказ от товара</option>
+                        <option value="">Товар с браком</option>
+                    </select>
+                </div>
+                <div class="forma__area">
+                    <p>Или опишите свою тему:</p>
+                    <textarea name="polethemes" id="poletheme" placeholder="Кратко опишите вашу тему..." cols="50"
+                        rows="5"></textarea>
+                    <textarea name="question" id="question" placeholder="Подробно расскажите нам о вашей проблеме..." cols="50"
+                        rows="5" required></textarea>
+                </div>
+                <div class="submit">
+                    <label for="submit"><input type="checkbox" required id="submit">
+                        <span class="submit__label">
+                            Нажимая кнопку, вы принимаете условия <a href="">Пользовательского соглашения</a>
+                            и даёте своё согласие на обработку ваших персональных данных
+                            в соответствии с ФЗ от 27.07.2006 года №152-ФЗ "О персональных данных"
+                        </span>
+                    </label>
+                </div>
+                <div class="forma__submit">
+                    <input type="submit" value="Отправить">
+                </div>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <hr>
+        <div class="footer__communication">
+            <p><a href="mailto:kkhempll@gmail.com">&#128386; kkhempll@gmail.com</a></p>
+            <p><a href="tel:+78001234567">&#9990; +78001234567</a></p>
+            <p>Site Designed By: <a href="https://t.me/khempl">khempl</a></p>
+            <p>&copy; 2020-2025</p>
+        </div>
+        <p>
+            <a href="https://t.me/khempl"><img class="footer__links" src="img/tg.png" alt="Telegram"></a>
+            <b class="footer__links--razdelitel">&nbsp;|&nbsp;</b>
+            <a href="https://vk.com/khempl"><img class="footer__links" src="img/vk.png" alt="VK"></a>
+        </p>
+    </footer>
+</body>
+
+</html>
